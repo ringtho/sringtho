@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
 
   return (
-    <div>
+    <div className="dark">
+      <Navbar />
       <h1>Portfolio</h1>
     </div>
   )
