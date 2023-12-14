@@ -1,0 +1,15 @@
+.work_container {
+    border: 1px solid red;
+}
+
+.work_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+
+    .work_card {
+        border: 1px solid green;
+        height: 400px;
+
+    }
+}
