@@ -1,15 +1,26 @@
 .work_container {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .work_wrapper {
     display: flex;
-    flex-direction: column;
-    padding: 1rem 2rem;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    padding: 2.25rem 2rem;
+    flex-wrap: wrap;
 
     .work_card {
         border: 1px solid green;
         height: 400px;
+        width: 400px;
+        max-width: 1200px;
+        border-radius: 1.25rem;
 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
